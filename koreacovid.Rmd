@@ -65,9 +65,10 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-
-
+In this data set we are provided with actual numbers of those who lived and died. In the plot above we were proved categorical percentages. It was expected in this data that 39 females were going to die and 30 males were going to die. The observed counts showed that only 25 females died and 44 males died. This disease has killed significantly more males than expected. The odds ratio is 2.3 which means that a male is 2.3x more likely to die from Covid than a female.
 
 
 ## Conclusions
+
+
 
