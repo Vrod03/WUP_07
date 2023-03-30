@@ -34,13 +34,13 @@ state of a patient must be died or alive - we adjust that as well
 
 ## Graphical results - use ggplot commands to do this  
 
+```{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
 
+```
 
-  
-
-
-
-
+From this data we can see that males died more than females. The frequency of those who are alive is much higher than the frequency of those who are dead. In general there are more females than males.
 
   
 ## Numerical results
