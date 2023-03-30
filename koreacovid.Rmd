@@ -40,10 +40,21 @@ barchartGC(~result + Sex,data=kRdata, type="percent")
 
 ```
 
+
 From this data we can see that males died more than females. The frequency of those who are alive is much higher than the frequency of those who are dead. In general there are more females than males.
 
   
 ## Numerical results
+
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
+For every 1.4 deaths of women there was 3 male deaths. There was 56 females who lived and 36 who died which is a 14:9 ratio (alive:dead). There was 44 males that lived and 64 who died which is a 11:16 ratio (alive:dead). In comparison males died and at much higher rate than females.
+
 
 
 ## Inferential results 
