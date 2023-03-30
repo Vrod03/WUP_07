@@ -1,7 +1,7 @@
 ---
 title: "Initial Korean covid 19"
-author: "your name here"
-date: "todays date"
+author: "Valerie Rodriguez"
+date: "03/30/2023"
 output:
   html_document: default
   pdf_document: default
