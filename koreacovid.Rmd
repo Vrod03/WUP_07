@@ -53,11 +53,18 @@ colPerc(table1)
 ```
 
 
-For every 1.4 deaths of women there was 3 male deaths. There was 56 females who lived and 36 who died which is a 14:9 ratio (alive:dead). There was 44 males that lived and 64 who died which is a 11:16 ratio (alive:dead). In comparison males died and at much higher rate than females.
+For every 1.4 deaths of women there was 3 male deaths. There was 56% females who lived and 36% who died which is a 14:9 percent ratio. There was 44% males that lived and 64% who died which is a 11:16 percent ratio. In comparison males died and at much higher rate than females.
 
 
 
 ## Inferential results 
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
 
 
 
