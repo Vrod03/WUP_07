@@ -70,5 +70,5 @@ In this data set we are provided with actual numbers of those who lived and died
 
 ## Conclusions
 
-
+In conclusion Covid-19 in Korea killed significantly more men than women. A male is 2.3x more likely to die from Covid than a female is. Depending on your sex and if your a male you are at a much higher risk of dying. It was expected that  significantly more females would die than males but when the actual results were taken it was the exact opposite. Even though the results from graphical data showed that there are more females in the population compared to men the ratio remains basically the same and more males died regardless.
 
